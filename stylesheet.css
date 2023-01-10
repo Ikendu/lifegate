@@ -22,8 +22,46 @@ li{
 }
 
 .main {
-  background-color: #bdf7f1;
-  height: 600px;
+ 
+}
+
+.content-head{
+	border-bottom: 2px solid brown;
+	font-size: 30px;
+}
+
+.content{
+	height: 500px;
+}
+
+.contents-item{
+	float: left;
+	margin-left: 60px;
+}
+
+.copy-container h1{
+	font-size: 90px;
+}
+
+.copy-container p{
+	font-size: 50px;
+}
+
+.copy-container span{
+	color: red;
+}
+
+input,textarea {
+	width: 500px;
+	padding: 20px;
+	margin-top: 10px;
+	border: 1px solid #dee7ec;
+	margin-bottom: 30px;
+}
+
+.contact-submit{
+  background-color: #dee7ec;
+  color: #889eab;
 }
 
 .footer {
